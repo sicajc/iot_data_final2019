@@ -130,6 +130,9 @@ module IOTDF( clk, rst, in_en, iot_in, fn_sel, busy, valid, iot_out);
     end
   end
 
+  //================================
+  //  ALU
+  //================================
 
   always @(posedge clk or posedge rst)
   begin
